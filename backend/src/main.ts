@@ -18,7 +18,7 @@ async function bootstrap() {
 
   // Enable CORS
   app.enableCors({
-    origin: 'https://ciu-exam-management-system-phillip.netlify.app/', 
+    origin: 'https://ciu-exam-management-system-phillip.netlify.app', 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
