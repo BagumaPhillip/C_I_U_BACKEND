@@ -4,7 +4,7 @@ import { Server } from 'socket.io';
 
 @WebSocketGateway({
   cors: {
-    origin: 'http://localhost:5173', // Frontend URL
+    origin: 'https://ciu-exam-management-system-phillip.netlify.app/', // Frontend URL
     methods: ['GET', 'POST'],
   },
 })
